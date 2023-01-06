@@ -11,6 +11,7 @@ function addGame(event) {
 
   const deleteBtn = document.createElement("button");
   deleteBtn.textContent = "Delete";
+  deleteBtn.setAttribute("id", "deleteButton")
   deleteBtn.addEventListener("click", deleteGame);
   game.appendChild(deleteBtn);
 
